@@ -1,0 +1,139 @@
+.add-webinar-page {
+  padding: 16px;
+  padding-bottom: 80px;
+  min-height: 100vh;
+}
+
+.add-webinar-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.back-btn {
+  background: none;
+  border: none;
+  font-size: 16px;
+  color: var(--tg-theme-button-color, #3390ec);
+  cursor: pointer;
+  padding: 8px;
+}
+
+.add-webinar-header h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.access-denied {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.access-denied h2 {
+  font-size: 24px;
+  margin-bottom: 12px;
+}
+
+.access-denied p {
+  color: var(--tg-theme-hint-color, #999);
+  margin-bottom: 24px;
+}
+
+.access-denied button {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 12px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.webinar-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.form-group label {
+  font-weight: 600;
+  font-size: 14px;
+  color: var(--tg-theme-text-color, #000);
+}
+
+.form-group input,
+.form-group textarea {
+  padding: 12px;
+  border: 1px solid var(--tg-theme-hint-color, #ddd);
+  border-radius: 8px;
+  font-size: 16px;
+  background: var(--tg-theme-bg-color, #fff);
+  color: var(--tg-theme-text-color, #000);
+  font-family: inherit;
+}
+
+.form-group textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: var(--tg-theme-button-color, #3390ec);
+}
+
+.file-input {
+  padding: 8px !important;
+  cursor: pointer;
+}
+
+.image-preview {
+  margin-top: 12px;
+  border-radius: 12px;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.image-preview img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.error-message {
+  background: #fee;
+  color: #c33;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.submit-btn {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border: none;
+  padding: 16px;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 12px;
+}
+
+.submit-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.submit-btn:active:not(:disabled) {
+  transform: scale(0.98);
+}
